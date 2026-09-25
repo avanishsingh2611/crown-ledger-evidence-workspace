@@ -1,0 +1,8 @@
+{
+  "name": "Crown & Ledger Evidence Workspace",
+  "description": "Secure Digital Document Management System for Legal & Investigation Documents",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

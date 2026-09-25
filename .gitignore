@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build and Production Outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment Variables and Local Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and OS Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Test and Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# Temporary Files and Cache
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Local Supabase CLI temporary files
+supabase/.temp/
